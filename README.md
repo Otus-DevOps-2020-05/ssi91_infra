@@ -1,5 +1,5 @@
 # ssi91_infra
-ssi91 Infra repository
+ssi91 Infra repository [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/ssi91_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/ssi91_infra)
 
 ## HW #3
 
