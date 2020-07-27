@@ -1,5 +1,5 @@
 # ssi91_infra
-ssi91 Infra repository
+ssi91 Infra repository [![Build Status](https://travis-ci.com/Otus-DevOps-2020-05/ssi91_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-05/ssi91_infra)
 
 ## HW #3
 
@@ -85,3 +85,13 @@ yc compute instance create \
 ### Дополнительно
 - Попытался использовать `yc_compute` плагин для динамических inventory (см. `yc.yml`)
 - Написал приметивный inventory-script `yc_inventory.py` для динамических inventory
+
+## HW #10
+- Перенесены созданные плейбуки в раздельные роли
+- Описаны два окружения
+- Использованы коммьюнити роль nginx
+- Использованы Ansible Vault для наших окружений
+
+### Дополнительно
+- В travis добавлены валидаторы и линтеры для ansible, terraform и packer
+- Добавлен бэйдж статуса билда в `README`
